@@ -6,8 +6,7 @@ import { makeStyles } from "@material-ui/core/styles";
 import AppBar from "@material-ui/core/AppBar";
 import Toolbar from "@material-ui/core/Toolbar";
 import Hidden from "@material-ui/core/Hidden";
-import Button from "@material-ui/core/Button";
-
+import logo from '../../assest/img/logo.png'
 const styles = {
   appBar: {
     padding: "0.625rem 0",
@@ -60,7 +59,7 @@ const useStyles = makeStyles(styles);
 
 export default function Header(props) {
   const classes = useStyles();
-  const {color, rightLinks, brand, fixed} = props;
+  const {color, rightLinks, fixed} = props;
   const appBarClasses = classNames({
     [classes.appBar]: true,
     [classes[color]]: color,
@@ -92,7 +91,7 @@ export default function Header(props) {
   return (
     <AppBar className={appBarClasses}>
       <Toolbar className={classes.container}>       
-        <Button className={classes.logo} href='#home'>{brand}</Button>
+        <a href='#home'><img src={logo} alt='logo'/></a>
         <Hidden smDown implementation="css">
           {rightLinks}
         </Hidden>

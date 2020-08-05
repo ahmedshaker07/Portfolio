@@ -10,10 +10,15 @@ html{
     
 }
 
-.container{
+.mainWS .container{
     align-items: center;
     display: flex;
     margin-top: 11%;
+}
+@media (max-width : 767px){
+    .mainWS .container .div1{
+        margin-top: 30%;
+    }  
 }
 
 .div1{
