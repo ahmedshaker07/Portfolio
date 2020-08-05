@@ -48,3 +48,38 @@ html{
     color: aquamarine;
 }
 
+.mainAS{
+    margin-top: 100px;
+    text-align: center;
+    align-items: center;
+    margin-left: auto;
+    margin-right: auto;
+    width: 30%;
+}
+.mainAS h1{
+    font-size: 32px;
+    font-weight: 500;
+    text-transform: uppercase;
+    font-family:'Courier';
+    margin-bottom: -1%;
+}
+.mainAS p{
+    /* font-size: 32px; */
+    font-weight: 300;
+    /* text-transform: uppercase; */
+    /* font-family:'Futura'; */
+    /* margin-bottom: -1%; */
+    color: #2c2b2b;
+}
+.mainAS a{
+    /* font-size: 32px; */
+    /* font-weight: 300; */
+    text-transform: uppercase;
+    /* font-family:'Futura'; */
+    color: #2c2b2b;
+    text-decoration: none;
+    background-color: black;
+    color: white;
+    padding: 12px;
+    box-shadow:  0 4px 18px 0px rgba(0, 0, 0, 0.12), 0 7px 10px -5px rgba(0, 0, 0, 0.15);
+}

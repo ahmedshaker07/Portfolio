@@ -38,7 +38,7 @@ export default function Welcome(){
                     <h1>AHMED HOSSAM</h1>
                     <p>Full Stack Developer</p>
                     <div className="buttons">
-                        <Button className={classes.button1} variant="contained" href='#home'>hire me</Button>
+                        <Button className={classes.button1} variant="contained" href='#contact'>hire me</Button>
                         <Button className={classes.button2} variant="outlined" href='#about'>Explore</Button>
                     </div>
                 </div>

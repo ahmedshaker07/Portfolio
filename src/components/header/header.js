@@ -7,6 +7,7 @@ import AppBar from "@material-ui/core/AppBar";
 import Toolbar from "@material-ui/core/Toolbar";
 import Hidden from "@material-ui/core/Hidden";
 import logo from '../../assest/img/logo.png'
+
 const styles = {
   appBar: {
     padding: "0.625rem 0",

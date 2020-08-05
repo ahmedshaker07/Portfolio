@@ -2,7 +2,8 @@ import React from 'react';
 import './App.css';
 import Header from './components/header/header';
 import HeaderLinks from './components/header/headerLinks'
-import Welcome from './components/welcome/welcome';
+import Welcome from './components/welcome';
+import About from './components/about';
 
 export default function App() {
   return (
@@ -18,7 +19,7 @@ export default function App() {
         }}
       />
       <Welcome/>
-      
+      <About/>
     </div>
   );
 }
