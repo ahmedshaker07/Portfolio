@@ -5,7 +5,7 @@ import LinearProgress from '@material-ui/core/LinearProgress';
 export default function About(){
     return(
         <div id='about' className='mainAS'>
-            <div className='about'>
+            <div  className='about'>
                 <h1>ABOUT</h1>
                 <img src={lines} alt='lines'/>
                 <p>Hello! I'm Ahmed, a full stack developer and a guy slighty obsessed for code quality. 
