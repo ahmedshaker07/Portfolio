@@ -1,0 +1,45 @@
+html{
+    scroll-behavior: smooth;
+}
+.mainWS{
+    background-image: url( "./assest/img/hero.jpg");
+    height: 100vh;
+    background-Size: cover;
+    background-Position: center center;
+    overflow: hidden;
+    
+}
+
+.container{
+    align-items: center;
+    display: flex;
+    margin-top: 11%;
+}
+
+.div1{
+    align-items: center;
+    margin-left: 13%;
+}
+.div1 h1{
+    font-size: 40px;
+    font-weight: 700;
+}
+.div1 p{
+    font-size: 22px;
+    margin-top: -17px;
+    margin-bottom: 30px;
+    line-height: 1;
+    font-weight: 350;
+}
+.buttons{
+    align-items: center;
+    text-align: center;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.is-current{
+    text-transform: uppercase;
+    color: aquamarine;
+}
+
