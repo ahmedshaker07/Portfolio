@@ -48,18 +48,18 @@ export default function HeaderLinks(props) {
   const classes = useStyles();
 
     return (
-      <Scrollspy items={ ['home', 'section-2', 'section-3'] } currentClassName={classes.navLink1}>
+      <Scrollspy items={ ['home', 'about', 'service','contact'] } currentClassName={classes.navLink1}>
           <ListItem className={classes.listItem}>
             <a className={classes.navLink} href="#home">Home</a>
           </ListItem>
           <ListItem className={classes.listItem}>
-            <a className={classes.navLink} href="#sec1">About</a>
+            <a className={classes.navLink} href="#about">About</a>
           </ListItem>
           <ListItem className={classes.listItem}>
-            <a className={classes.navLink} href="#sec1">Service</a>
+            <a className={classes.navLink} href="#service">Service</a>
           </ListItem>
           <ListItem className={classes.listItem}>
-            <a className={classes.navLink} href="#sec1">Contact</a>
+            <a className={classes.navLink} href="#contact">Contact</a>
           </ListItem>
         </Scrollspy>
     );
