@@ -4,7 +4,7 @@ import { makeStyles } from "@material-ui/core/styles";
 
 const styles= {
     button1:{
-        fontFamily:"sans firas",
+        fontFamily:"Poppins",
         fontWeight:"500",
         fontSize:"16px",
         height:"50px",
@@ -18,7 +18,7 @@ const styles= {
         }
     },
     button2:{
-        fontFamily:"sans firas",
+        fontFamily:"Poppins",
         fontWeight:"500",
         fontSize:"16px",
         height:"50px",

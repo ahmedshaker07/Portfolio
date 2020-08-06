@@ -5,6 +5,7 @@ import HeaderLinks from './components/header/headerLinks'
 import Welcome from './components/welcome';
 import About from './components/about';
 import Service from './components/service';
+import Contact from './components/contact';
 
 export default function App() {
   return (
@@ -21,7 +22,8 @@ export default function App() {
       />
       <Welcome/>
       <About/>
-      <Service/>  
+      <Service/>
+      <Contact/>
     </div>
   );
 }

@@ -4,7 +4,7 @@ import { makeStyles } from "@material-ui/core/styles";
 import ListItem from "@material-ui/core/ListItem";
 import Scrollspy from 'react-scrollspy'
 
-const styles = theme => ({
+const styles = {
   list: {
     margin: 0,
     paddingLeft: "0",
@@ -40,7 +40,7 @@ const styles = theme => ({
   navLink1: {
     borderBottom: "2px solid #212121"
   }
-})
+}
 const useStyles = makeStyles(styles);
 
 export default function HeaderLinks(props) {
