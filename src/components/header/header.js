@@ -92,7 +92,7 @@ export default function Header(props) {
   return (
     <AppBar className={appBarClasses}>
       <Toolbar className={classes.container}>       
-        <a href='#home'><img src={logo} alt='logo'/></a>
+        <a href='#home'><img src={logo} height="100px" alt='logo'/></a>
         <Hidden smDown implementation="css">
           {rightLinks}
         </Hidden>
