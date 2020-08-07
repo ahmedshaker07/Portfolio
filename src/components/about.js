@@ -13,7 +13,7 @@ export default function About(){
                         I’m currently available for internships. 
                         If you have an opportunity that you can give me to get started, then get in touch.
                     </p>
-                    {/* <a href="https://drive.google.com/file/d/1YLpCUuu5Wr8tjfLWEP9cpV6I11H_UtGE/view?usp=sharing" download>Download my cv</a> */}
+                    {/* <a href="https://drive.google.com/file/d/1YLpCUuu5Wr8tjfLWEP9cpV6I11H_UtGE/view?usp=sharing" target='_blank'>Download my cv</a> */}
                     <a href="https://drive.google.com/u/0/uc?id=1YLpCUuu5Wr8tjfLWEP9cpV6I11H_UtGE&export=download" download>Download my cv</a>
                 </div>
                 <div className='skills'>

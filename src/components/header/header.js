@@ -38,8 +38,8 @@ const styles = {
   container: {
     marginRight: "auto",
     marginLeft: "auto",
-    width: "88%",
-    justifyContent: "space-between",
+    width: "75%",
+    justifyContent: "space-between"
   },
   logo: {
     fontWeight: "700",

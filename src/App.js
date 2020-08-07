@@ -6,13 +6,13 @@ import Welcome from './components/welcome';
 import About from './components/about';
 import Service from './components/service';
 import Contact from './components/contact';
+import Footer from './components/footer';
 
 export default function App() {
   return (
     <div className="App">
       <Header
         color="transparent"
-        brand="Perfect"
         rightLinks={<HeaderLinks/>}
         fixed
         changeColorOnScroll={{
@@ -24,6 +24,7 @@ export default function App() {
       <About/>
       <Service/>
       <Contact/>
+      <Footer/>
     </div>
   );
 }

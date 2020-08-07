@@ -25,7 +25,7 @@ const styles = {
     transition: "border-color .35s ease-in-out",
     "&:hover,&:focus": {
       backgroundColor: "transparent",
-      borderBottom: "2px solid #212121"
+      borderBottom: "2px solid #f50057"
     }
   },
   navLink: {
@@ -38,7 +38,7 @@ const styles = {
     display: "inline-flex"
   },
   navLink1: {
-    borderBottom: "2px solid #212121"
+    borderBottom: "2px solid #f50057"
   }
 }
 const useStyles = makeStyles(styles);

@@ -25,7 +25,10 @@ const styles= {
         width:'50%',
         borderRadius:"0",
         marginLeft:"2px",
-        border:"1px solid"
+        border:"1px solid",
+        "&:hover":{
+            color: "#f50057"
+        }
     }
 }
 const useStyles= makeStyles(styles)
